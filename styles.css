@@ -1,0 +1,62 @@
+html {
+    background-color: #f5ebf5;
+}
+
+h1 {
+    font-family: "Tahoma", "Verdana", sans-serif;
+    color: #c2992b;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: "Tahoma", "Verdana", sans-serif;
+    color: #c2992b;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: "Tahoma", "Verdana", sans-serif;
+    color: #302f2f;
+}
+
+body {
+    text-align: center;
+    font-family: "Georgia", "Garamond", serif;
+}
+
+a {
+    font-family: "Tahoma", "Verdana", sans-serif;
+    color: #8c887d;
+}
+
+a:hover {
+    color: #5c5952;
+    font-weight: bold;
+}
+
+div.container-text {
+    display: inline-block;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+ul.main-list{
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+}
+
+ul.ingredients {
+    display: inline-block;    
+    text-align: left;
+    list-style-type:circle;
+    margin-top: 2;
+}
+
+.stepbystep {
+    display: inline-block;
+    text-align: left;
+    padding-top: 1;
+}
