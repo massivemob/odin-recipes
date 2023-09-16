@@ -1,5 +1,12 @@
 html {
-    background-color: #f5ebf5;
+    background-color: #ebe6e6;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 h1 {
@@ -19,6 +26,13 @@ h3 {
     color: #302f2f;
 }
 
+img {
+    vertical-align: top;
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+
 body {
     text-align: center;
     font-family: "Georgia", "Garamond", serif;
@@ -36,27 +50,23 @@ a:hover {
 
 div.container-text {
     display: inline-block;
-    padding-left: 350px;
-    padding-right: 350px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 ul.main-list{
-    display: inline-block;
+    display: block;
     text-align: center;
     list-style-type: none;
-    margin: 5;
-    padding: 0;
 }
 
 ul.ingredients {
-    display: inline-block;    
+    display: block;    
     text-align: left;
     list-style-type:circle;
-    margin-top: 2;
 }
 
 .stepbystep {
     display: inline-block;
     text-align: left;
-    padding-top: 1;
 }
